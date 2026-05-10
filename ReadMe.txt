@@ -82,24 +82,7 @@ Behavioral features dominate the model, while demographic and categorical featur
 
 ---
 
-## Key Insights
 
-1. Dataset mostly contains **static snapshots**, not temporal trends.  
-2. Churn prediction requires **behavioral change signals** (e.g., declining order frequency, loyalty point decay).  
-3. Demographics, city, restaurant, category, and delivery status contribute little to churn prediction.  
-4. Even after feature engineering and tuning, **accuracy remains near 50%**, reflecting the dataset limitation.  
-
----
-
-## Recommendations
-
-- Collect **longitudinal/temporal data** to track behavioral trends.  
-- Engineer features such as:  
-  - `frequency_trend` = recent_orders - past_orders  
-  - `inactivity_growth` = current_gap - average_gap  
-  - `loyalty_drop` = change in loyalty_points over time  
-- Consider advanced models (XGBoost, LightGBM) once strong features are available.  
-- Focus on top behavioral features to reduce noise and improve interpretability.
 
 ---
 
