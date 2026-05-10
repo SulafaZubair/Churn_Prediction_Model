@@ -1,0 +1,128 @@
+gender
+Female    2018
+Male      2017
+Other     1965
+Name: count, dtype: int64
+
+age
+Teenager    2062
+Adult       1984
+Senior      1954
+Name: count, dtype: int64
+
+city
+Multan       1256
+Lahore       1217
+Peshawar     1195
+Islamabad    1187
+Karachi      1145
+Name: count, dtype: int64
+
+churned   gender
+Active    Female    1027
+          Male      1009
+          Other      980
+Inactive  Male      1008
+          Female     991
+          Other      985
+Name: count, dtype: int64
+
+churned   age     
+Active    Teenager    1046
+          Adult       1021
+          Senior       949
+Inactive  Teenager    1016
+          Senior      1005
+          Adult        963
+Name: count, dtype: int64
+
+churned   city     
+Active    Peshawar     623
+          Multan       608
+          Islamabad    602
+          Karachi      597
+          Lahore       586
+Inactive  Multan       648
+          Lahore       631
+          Islamabad    585
+          Peshawar     572
+          Karachi      548
+Name: count, dtype: int64
+
+age       gender
+Adult     Male      675
+          Female    667
+          Other     642
+Senior    Female    669
+          Male      647
+          Other     638
+Teenager  Male      695
+          Other     685
+          Female    682
+Name: count, dtype: int64
+
+churned   delivery_status
+Active    Delivered          1042
+          Cancelled           996
+          Delayed             978
+Inactive  Delivered          1018
+          Delayed             994
+          Cancelled           972
+Name: count, dtype: int64
+
+gender  age       delivery_status  churned 
+Female  Adult     Cancelled        Active      117
+                                   Inactive    103
+                  Delayed          Active      134
+                                   Inactive    109
+                  Delivered        Inactive    105
+                                   Active       99
+        Senior    Cancelled        Inactive    109
+                                   Active      103
+                  Delayed          Inactive    119
+                                   Active       91
+                  Delivered        Active      126
+                                   Inactive    121
+        Teenager  Cancelled        Active      117
+                                   Inactive    102
+                  Delayed          Active      117
+                                   Inactive    100
+                  Delivered        Active      123
+                                   Inactive    123
+Male    Adult     Cancelled        Active      116
+                                   Inactive     98
+                  Delayed          Active      113
+                                   Inactive    103
+                  Delivered        Active      127
+                                   Inactive    118
+        Senior    Cancelled        Inactive    119
+                                   Active       98
+                  Delayed          Inactive    110
+                                   Active      105
+                  Delivered        Active      112
+                                   Inactive    103
+        Teenager  Cancelled        Inactive    111
+                                   Active      109
+                  Delayed          Inactive    130
+                                   Active       99
+                  Delivered        Active      130
+                                   Inactive    116
+Other   Adult     Cancelled        Inactive    117
+                                   Active      105
+                  Delayed          Active      111
+                                   Inactive     96
+                  Delivered        Inactive    114
+                                   Active       99
+        Senior    Cancelled        Active      110
+                                   Inactive    107
+                  Delayed          Inactive    110
+                                   Active       93
+                  Delivered        Active      111
+                                   Inactive    107
+        Teenager  Cancelled        Active      121
+                                   Inactive    106
+                  Delayed          Inactive    117
+                                   Active      115
+                  Delivered        Active      115
+                                   Inactive    111
+Name: count, dtype: int64
